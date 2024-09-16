@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" type="image/x-icon" href="imagens/logo.png"> 
+    <script  src="inicio.js" ></script>
+</head>
+    <body>
+      <!-- login forms 
+         <div id="login">
+             <form class="card">
+             <div class="card-header">
+               <h2>Login</h2>
+             </div>
+             <div class="card-content">
+                 <div class="card-content-area">
+                     <label for="usuario">Usuário</label>
+                     <input type="text" id="usuario" autocomplete="off">
+                 </div>
+                 <div class="card-content-area">
+                     <label for="password">Senha</label>
+                     <input type="password" id="password" autocomplete="off">
+                 </div>
+             </div>
+             <div class="card-footer">
+                 <input  type="submit" value="Login" class="submit">
+             </div>
+         </form> 
+     </div> -->
+     <section>
+        <h2>Notificações em Tempo Real</h2>
+        <div id="notifications" style="background-color: #e9ecef; padding: 10px;">
+            <p>Sem novas notificações no momento.</p>
+        </div>
+        <button onclick="addNotification()">Recarregar</button>
+</section>
+<h2>Deixe seu Feedback</h2>
+<form id="feedbackForm">
+    <label for="name">Nome:</label>
+    <input type="text" id="name" required>
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" required>
+    <label for="message">Mensagem:</label>
+    <textarea id="message" required></textarea>
+    <button type="submit">Enviar</button>
+</form>
+<p id="feedbackResponse"></p>
+
+ </body>
+ <footer>
+    <p>&copy; 2024 CPTM - Companhia Paulista de Trens Metropolitanos. Todos os direitos reservados.</p>
+   <!--inserir icone--> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-houses" viewBox="0 0 16 16">
+        <path d="M5.793 1a1 1 0 0 1 1.414 0l.647.646a.5.5 0 1 1-.708.708L6.5 1.707 2 6.207V12.5a.5.5 0 0 0 .5.5.5.5 0 0 1 0 1A1.5 1.5 0 0 1 1 12.5V7.207l-.146.147a.5.5 0 0 1-.708-.708zm3 1a1 1 0 0 1 1.414 0L12 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l1.854 1.853a.5.5 0 0 1-.708.708L15 8.207V13.5a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 4 13.5V8.207l-.146.147a.5.5 0 1 1-.708-.708zm.707.707L5 7.207V13.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5V7.207z"/>
+      </svg><a href="index.html">Home</a> <!--linkar pag -->
+</footer>
+</html>

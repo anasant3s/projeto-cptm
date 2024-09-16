@@ -1,0 +1,144 @@
+/* cor do fundo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* area de login*/
+#login {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* caixa de login */
+.card {  
+background-color: rgba(126, 113, 113, 0.61); 
+padding: 40px;
+border-radius: 30px;
+width:280px;
+}
+
+/*cabeçalho da caixa*/
+.card-header {    
+padding-bottom: 50px;
+opacity: 0.8;
+color: #ffffff;
+}
+/* ngc p mostra a senha */
+.card-header::after {
+content: "";
+width: 70px;
+height: 1px;
+background-color: #fff;
+display: block;
+margin-top: -17px;
+margin-left: -5px;
+
+}
+/* usuario e senha */
+.card-content label {
+color: #ffffff;
+font-size: 12px;
+}
+
+/* tamanho da caixa */
+.card-content-area {
+display: flex;
+flex-direction: column;
+padding:20px 0;
+}
+/* conf da parte de preencher*/
+.card-content-area input {
+margin-top: 10px;
+padding:0 5px;
+background-color: transparent;
+border:none;
+border-bottom: 1px solid #ffffff;
+outline: none;
+color: #ffffff;
+}
+
+/* rodape */
+.card-footer {
+display: flex;
+flex-direction: column;
+}
+
+/* botao login*/
+.card-footer .submit{
+width: 100%;
+height: 40px;
+background-color: #c90808;
+border:none;
+color:#e1e1e1;
+margin: 10px 0;
+
+}
+
+.card-footer a {
+text-align: center;
+font-size: 12px;
+opacity: 0.8;
+color: #fff;
+text-decoration: none;
+}
+/* efeito hover*/
+form input[type="submit"]:hover {
+background-color: #ad0000;
+}
+/*rodape*/
+footer{
+background-color: #c90808;
+}
+
+/* Footer */
+footer {
+background-color: rgba(0, 0, 0, 0.699);
+color: white;
+padding: 20px;
+width: 100%;
+text-align: center;
+position: absolute;
+bottom: 0;
+
+/* manda p canto*/
+p{
+    text-align: left;
+}
+
+}
+footer img {
+margin-top: 10px;
+max-width: 100%;
+}
+footer a {
+color: white;
+text-decoration: underline;
+text-decoration: none; /* remove o sublinhado*/
+font-weight: bold;
+align-items: left;
+}
+
+button{
+    background: #000;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+form{
+    padding: 40px 20px;
+    text-align: center;
+    width: 70px;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+    margin-top: -17px;
+    margin-left: -5px;
+
+}
